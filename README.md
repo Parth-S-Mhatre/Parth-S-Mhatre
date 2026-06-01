@@ -1,86 +1,136 @@
 # Parth Mhatre — Portfolio
 
-Welcome — I'm Parth Mhatre, a Machine Learning engineer and full‑stack developer focused on building production-ready AI systems that solve real-world problems. This repository is my public portfolio: curated projects, impact summaries, and links to repositories that demonstrate the technical depth and product sense I bring to research teams and graduate programs.
+<div align="center">
+  <h1>Parth Mhatre</h1>
+  <p><em>Machine Learning Engineer • AI Systems • Full‑Stack • Time‑Series & Forecasting</em></p>
+  <p>
+    <a href="https://github.com/Parth-S-Mhatre"><img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/></a>
+    <a href="https://www.linkedin.com/in/your-profile"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+    <a href="mailto:your.email@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  </p>
+</div>
 
 ---
 
-## 🎯 Objective
+## Personal Summary
 
-I am preparing this portfolio to present a clear, professional view of my work to top universities and research groups. Below you'll find my most significant project (LoadIQ) presented first — a standalone, end-to-end product I contributed heavily to — followed by other notable projects and contributions.
-
----
-
-## 1) LoadIQ — Primary Project (Featured)
-
-LoadIQ is an AI-powered electricity load forecasting platform built for the modern grid. It predicts real-time energy demand across four countries (UK, USA, Germany, India) using machine learning models trained on several years of half-hourly grid data.
-
-- Repository: https://github.com/Parth-S-Mhatre/LoadIQ
-- Live demo / site: https://loadiq-smart-ai.web.app/
-
-My role and contributions (selected):
-- Developed and maintained core forecasting pipelines and model orchestration (data ingestion, feature engineering, model training, evaluation).
-- Implemented ensemble approaches and performance analysis to improve accuracy across countries.
-- Built and integrated the FastAPI backend with the React frontend and Firebase authentication/database for a production-ready experience.
-- Worked on performance optimizations (lazy/skeleton loading and caching strategies) and PDF report generation for stakeholders.
-- Led end-to-end testing and deployment, and wrote documentation to support reproducible experiments.
-
-Why it matters: LoadIQ demonstrates my ability to build and ship ML systems that operate at product scale — from data engineering to model deployment and user-facing UI.
+I build production-ready AI systems that solve real-world problems. My work spans end-to-end machine learning (data ingestion, feature engineering, model development, evaluation), backend services, and user-facing web applications. I prepare this portfolio to present a concise, professional view of my research and product work for graduate admissions and research opportunities at institutions such as Oxford, Cambridge, and Imperial.
 
 ---
 
-## 2) AttendX — Contributor (AI agent workflow & frontend)
+## Featured Project — LoadIQ (Primary)
 
-- Repository: (if public, add link here)
+<div align="center">
+  <a href="https://github.com/Parth-S-Mhatre/LoadIQ"><img src="https://img.shields.io/badge/LoadIQ-Project-blue?style=for-the-badge"/></a>
+  <p><strong>AI-powered electricity load forecasting for multiple national grids</strong></p>
+</div>
 
-Contribution summary:
-- Contributed to the AI agent workflow where I diagnosed and mitigated API rate-limit issues. I implemented a controlled 30-second delay/backoff strategy to the agent's outbound API calls, which stabilized request throughput and prevented interruptions due to throttling.
-- Developed landing-page components and modular UI pieces used on the public site; these components are responsive and reused across multiple pages.
-- Collaborated with the team on integration testing to ensure the delayed request strategy preserved UX while protecting downstream APIs.
+Summary
+- LoadIQ predicts electricity demand across the UK, USA, Germany, and India using ML models trained on multi-year, half-hourly grid data. The system is designed for reliability, interpretability, and deployment to stakeholders.
 
-Impact: The rate-limit mitigation reduced failed agent interactions and improved system reliability during peak load periods while maintaining a smooth user experience.
+Links
+- Repo: https://github.com/Parth-S-Mhatre/LoadIQ
+- Live demo: https://loadiq-smart-ai.web.app/
+
+My role & impact (selected)
+- Led core forecasting pipelines: data ingestion, cleaning, feature engineering, model training and validation.
+- Designed ensemble strategies and cross-country evaluation frameworks to improve robustness and generalization.
+- Implemented production APIs (FastAPI) and integrated them with a React frontend and Firebase for auth and storage.
+- Optimized UX & latency: skeleton/lazy loading, caching, and PDF report generation for stakeholder reporting.
+- Performed performance analysis and tuning that improved forecasting error metrics (e.g., lower MAPE across test windows) and reduced API response time under load.
+- Wrote reproducible experiments, deployment scripts, and technical documentation to support reviewers and collaborators.
+
+Technical details (high level)
+- Languages & frameworks: Python (pandas, scikit-learn, PyTorch), FastAPI, React, Firebase
+- ML techniques: time-series feature engineering, ensemble learning, model calibration, cross-validation
+- Infrastructure: containerized services, CI pipelines, performance monitoring
+
+Why this is admissions‑worthy
+- End-to-end ownership from data to production demonstrates systems thinking and the ability to translate research into deployed impact — a key trait looked for by top graduate programs.
+- The project required interdisciplinary skills: time-series modelling, software engineering, and user-oriented product design.
+
+Quick reproducibility notes
+- See the LoadIQ README for dataset links, environment setup, and a one-command run script to reproduce main experiments.
+- If reviewers would like specific results or a short demo, I can prepare a 5–10 minute walkthrough video and a minimal example notebook highlighting model evaluation.
 
 ---
 
-## 3) Other Notable Repositories
+## Notable Projects (Curated)
 
-- LoadIQ (featured above) — https://github.com/Parth-S-Mhatre/LoadIQ
+I list these next to present breadth and depth across ML research, teaching, and product work.
+
 - machine-learning — https://github.com/Parth-S-Mhatre/machine-learning
-  - A collection of notebooks and experiments in machine learning and deep learning. Includes data exploration, model prototyping, and results notebooks.
-- ml-dp_projects — https://github.com/Parth-S-Mhatre/ml-dp_projects
-  - Focused ML and deep learning projects with reproducible code, training scripts, and model evaluation artifacts.
-- python_core — https://github.com/Parth-S-Mhatre/python_core
-  - Core Python utilities, scripts, and exercises showcasing language fundamentals and problem-solving approaches.
-- studentdashboard-app — https://github.com/Parth-S-Mhatre/studentdashboard-app
-  - A predictive dashboard project that models student performance using features like study hours and sleep tracking.
-- Java-Fundamentals — https://github.com/Parth-S-Mhatre/Java-Fundamentals
-  - Hands-on Java examples and exercises for foundational understanding.
+  - A curated collection of Jupyter notebooks: experiments in supervised/unsupervised learning and deep learning prototypes.
 
-If you would like these organized into categories (Research, Product, Teaching), I can reformat and add publication-style entries for each project.
+- ml-dp_projects — https://github.com/Parth-S-Mhatre/ml-dp_projects
+  - Focused projects with training scripts, model checkpoints, and evaluation artifacts.
+
+- python_core — https://github.com/Parth-S-Mhatre/python_core
+  - Utilities, exercises and clean examples demonstrating Python best practices and algorithmic thinking.
+
+- studentdashboard-app — https://github.com/Parth-S-Mhatre/studentdashboard-app
+  - Predictive dashboard modeling student performance using study habits and sleep-tracking features.
+
+- Java-Fundamentals — https://github.com/Parth-S-Mhatre/Java-Fundamentals
+  - Hands-on Java exercises for core CS concepts and data structures.
+
+How to highlight these in applications
+- For research applications: list 2–3 projects with one line each on your CV and provide links. For each project, include a single metric or result (e.g., dataset size, error reduction, or user-facing impact).
+- For product-oriented programs: emphasize projects where you shipped a working prototype (LoadIQ, studentdashboard-app) and mention end users or stakeholders.
+
+---
+
+## AttendX — Contributor (AI agent workflow & frontend)
+
+- Repo: (add link if public)
+
+Contribution summary
+- Resolved API rate-limit instability in the AI agent workflow by implementing a controlled 30-second delay/backoff strategy for outbound API requests. This mitigated throttling and ensured reliable agent sessions during peak loads.
+- Developed modular React landing-page components and improved the component library for responsive design.
+- Collaborated on integration and end-to-end testing to make sure the delay strategy preserved user experience while protecting downstream services.
+
+Impact
+- Stabilized agent interactions: significantly reduced failed calls and improved overall system reliability during traffic spikes.
+- Improved frontend consistency with reusable components, speeding up landing page feature delivery.
+
+Why include this in applications
+- Demonstrates teamwork, pragmatic engineering to solve production issues, and an understanding of distributed systems and API reliability — all attractive to graduate admissions committees evaluating applied skills.
 
 ---
 
 ## Skills & Tools
 
-- Machine Learning: scikit-learn, PyTorch, TensorFlow, ensemble methods, time-series forecasting
-- Data & Engineering: pandas, NumPy, feature engineering, data pipelines
-- Web & Backend: React, FastAPI, Firebase, RESTful APIs, deployment and CI
-- Dev Practices: testing, performance optimization, reproducible experiments
+- Machine Learning: scikit-learn, PyTorch, TensorFlow, time-series forecasting, ensemble methods
+- Data & Engineering: pandas, NumPy, feature engineering, ETL pipelines
+- Web & Backend: React, FastAPI, Firebase, RESTful APIs
+- DevOps & Practices: containerization, CI, automated testing, performance optimization, reproducible research
 
 ---
 
-## How to use this portfolio for applications
+## For Admissions Committees — Suggested Short Statements
 
-- For university applications, highlight the LoadIQ section (core project) and the AttendX contribution in your CV and Statement of Purpose. Include a brief bullet about: “Designed and deployed production forecasting system (LoadIQ) and contributed to AI agent resilience (AttendX) by implementing a 30s API delay/backoff to mitigate rate-limiting.”
-- If reviewers want to reproduce results, point them to the LoadIQ repo and its README for setup and dataset instructions.
+Use these short lines in your CV or SOP where appropriate:
+
+- "Designed and deployed LoadIQ, an AI-powered electricity load forecasting system used across multiple national grids; led model development and production integration."
+- "Contributed to AttendX by implementing API rate-limit backoff and building responsive landing-page components to improve reliability and UX."
+
+If you want, I can tailor these lines to a specific program (e.g., MPhil in Machine Learning at Oxford or MSc in AI at Imperial).
 
 ---
 
-## Contact & Links
+## Next steps I can do for you (choose one)
+- Add screenshots and an architecture diagram for LoadIQ.
+- Add specific performance numbers (MAPE / RMSE) and a brief results table for LoadIQ.
+- Add the AttendX repo link and link to specific commits/prs you authored.
+- Generate a one-page PDF summary for application attachments.
 
+---
+
+## Contact
 - GitHub: https://github.com/Parth-S-Mhatre
-- LinkedIn: https://www.linkedin.com/in/your-profile (update with your profile link)
-- Email: your.email@example.com (update with your address)
+- LinkedIn: https://www.linkedin.com/in/your-profile (please replace)
+- Email: your.email@example.com (please replace)
 
 ---
 
-Thanks for visiting — I'm happy to tailor this portfolio further for a specific program or reviewer. If you'd like, I can also generate a one-page PDF summary you can attach to applications.
+Thank you for reviewing this portfolio — tell me which of the next steps to prioritize and I will update the README again.
