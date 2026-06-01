@@ -2,7 +2,7 @@
 
 <div align="center">
   <h1>Parth Mhatre</h1>
-  <p><em>Machine Learning Engineer • AI Systems • Full‑Stack • Time‑Series & Forecasting</em></p>
+  <p><em>Software Developer • Machine learning and AI Systems • Full‑Stack • Time‑Series & Forecasting</em></p>
   <p>
     <a href="https://github.com/Parth-S-Mhatre"><img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/></a>
     <a href="https://www.linkedin.com/in/your-profile"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
@@ -14,7 +14,7 @@
 
 ## Personal Summary
 
-I build production-ready AI systems that solve real-world problems. My work spans end-to-end machine learning (data ingestion, feature engineering, model development, evaluation), backend services, and user-facing web applications. I prepare this portfolio to present a concise, professional view of my research and product work for graduate admissions and research opportunities at institutions such as Oxford, Cambridge, and Imperial.
+I build production-ready AI systems that solve real-world problems. My work spans end-to-end machine learning (data ingestion, feature engineering, model development, evaluation), backend services, and user-facing web applications. I prepare this portfolio to present a concise, professional view of my research and product work 
 
 ---
 
