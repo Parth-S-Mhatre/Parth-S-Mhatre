@@ -1,260 +1,86 @@
-# <div align="center"><img src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Hi.gif" width="29px"> Hello, I'm Parth Mhatre</div>
+# Parth Mhatre — Portfolio
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&width=600&height=100&lines=🤖+Machine+Learning+Developer;🎓+Computer+Engineering+Student" alt="Typing SVG" />
-</div>
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:E1E1E1,100:007ACC&height=200&section=header&text=Welcome%20to%20my%20Digital%20Lab&fontSize=30&fontColor=fff&animation=twinkling&fontAlignY=35" width="100%"/>
-</div>
-
-<br><br>
+Welcome — I'm Parth Mhatre, a Machine Learning engineer and full‑stack developer focused on building production-ready AI systems that solve real-world problems. This repository is my public portfolio: curated projects, impact summaries, and links to repositories that demonstrate the technical depth and product sense I bring to research teams and graduate programs.
 
 ---
 
-<div align="center">
-  
-  [![GitHub followers](https://img.shields.io/github/followers/Parth-S-Mhatre?style=for-the-badge&logo=github&logoColor=white&labelColor=282c34&color=61dafb)](https://github.com/Parth-S-Mhatre)
-  ![Profile views](https://komarev.com/ghpvc/?username=Parth-S-Mhatre&color=blueviolet&style=for-the-badge&label=Profile+Views)
-  [![Repos Badge](https://badges.pufler.dev/repos/Parth-S-Mhatre?style=for-the-badge&color=ff6b6b)](https://github.com/Parth-S-Mhatre?tab=repositories)
-  
-</div>
+## 🎯 Objective
 
-<br><br>
+I am preparing this portfolio to present a clear, professional view of my work to top universities and research groups. Below you'll find my most significant project (LoadIQ) presented first — a standalone, end-to-end product I contributed heavily to — followed by other notable projects and contributions.
 
 ---
 
-## 🤖 About Me - The Human Behind The Code
+## 1) LoadIQ — Primary Project (Featured)
 
-<div align="center">
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="400" alt="Coding Robot"/>
-</div>
+LoadIQ is an AI-powered electricity load forecasting platform built for the modern grid. It predicts real-time energy demand across four countries (UK, USA, Germany, India) using machine learning models trained on several years of half-hourly grid data.
 
-```python
-class Parth:
-    def __init__(self):
-        self.current_status = "🔬 Building AI that thinks like humans"
-        self.current_focus = "Machine Learning projects that solve real-world problems"
-        self.learning_path = ["🧠 Neural Networks", "🦾 Robotics", "⚡ Advanced AI"]
-        self.philosophy = "Life is just like Supervised and Unsupervised Learning"
-        self.mission = "Contributing to the advancement of artificial intelligence"
-        self.favorite_stack = ["NumPy", "TensorFlow", "PyTorch", "Scikit-learn"]
-        self.location = "🇮🇳 India"
-        
-    def current_projects(self):
-        return {
-            "🔭 Working on": "Advanced ML algorithms for robotics",
-            "🌱 Learning": "Deep Reinforcement Learning & Computer Vision",
-            "👯 Collaborating": "Open-source AI projects",
-            "💬 Ask me about": "Python, ML, Data Science, Robotics"
-        }
-    
-    def say_hi(self):
-        print("🚀 Thanks for visiting! Let's build the future together!")
+- Repository: https://github.com/Parth-S-Mhatre/LoadIQ
+- Live demo / site: https://loadiq-smart-ai.web.app/
 
-me = Parth()
-me.say_hi()
-```
+My role and contributions (selected):
+- Developed and maintained core forecasting pipelines and model orchestration (data ingestion, feature engineering, model training, evaluation).
+- Implemented ensemble approaches and performance analysis to improve accuracy across countries.
+- Built and integrated the FastAPI backend with the React frontend and Firebase authentication/database for a production-ready experience.
+- Worked on performance optimizations (lazy/skeleton loading and caching strategies) and PDF report generation for stakeholders.
+- Led end-to-end testing and deployment, and wrote documentation to support reproducible experiments.
 
-<br><br>
+Why it matters: LoadIQ demonstrates my ability to build and ship ML systems that operate at product scale — from data engineering to model deployment and user-facing UI.
 
 ---
 
-## 📊 GitHub Analytics Dashboard
+## 2) AttendX — Contributor (AI agent workflow & frontend)
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Parth-S-Mhatre&theme=react-dark&hide_border=true&area=true" width="95%"/>
-</div>
+- Repository: (if public, add link here)
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Parth-S-Mhatre&show_icons=true&count_private=true&hide_border=true&theme=react&icon_color=61dafb&title_color=61dafb&text_color=c9d1d9&bg_color=0d1117" height="180px"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Parth-S-Mhatre&hide_border=true&theme=react&ring=61dafb&fire=61dafb&currStreakLabel=61dafb" height="180px"/>
-</div>
+Contribution summary:
+- Contributed to the AI agent workflow where I diagnosed and mitigated API rate-limit issues. I implemented a controlled 30-second delay/backoff strategy to the agent's outbound API calls, which stabilized request throughput and prevented interruptions due to throttling.
+- Developed landing-page components and modular UI pieces used on the public site; these components are responsive and reused across multiple pages.
+- Collaborated with the team on integration testing to ensure the delayed request strategy preserved UX while protecting downstream APIs.
 
-<br><br>
+Impact: The rate-limit mitigation reduced failed agent interactions and improved system reliability during peak load periods while maintaining a smooth user experience.
 
 ---
 
-## 🎯 Skill Matrix & Expertise
+## 3) Other Notable Repositories
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=python,java,c,tensorflow,pytorch,sklearn,pandas,numpy,anaconda,mysql,git,vscode&perline=6" />
-</div>
+- LoadIQ (featured above) — https://github.com/Parth-S-Mhatre/LoadIQ
+- machine-learning — https://github.com/Parth-S-Mhatre/machine-learning
+  - A collection of notebooks and experiments in machine learning and deep learning. Includes data exploration, model prototyping, and results notebooks.
+- ml-dp_projects — https://github.com/Parth-S-Mhatre/ml-dp_projects
+  - Focused ML and deep learning projects with reproducible code, training scripts, and model evaluation artifacts.
+- python_core — https://github.com/Parth-S-Mhatre/python_core
+  - Core Python utilities, scripts, and exercises showcasing language fundamentals and problem-solving approaches.
+- studentdashboard-app — https://github.com/Parth-S-Mhatre/studentdashboard-app
+  - A predictive dashboard project that models student performance using features like study hours and sleep tracking.
+- Java-Fundamentals — https://github.com/Parth-S-Mhatre/Java-Fundamentals
+  - Hands-on Java examples and exercises for foundational understanding.
 
-### 🔬 Data Science & ML Arsenal
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center" width="96">
-        <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="48" height="48" />
-        <br><strong>Python</strong>
-      </td>
-      <td align="center" width="96">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="Scikit-learn" width="48" height="48" />
-        <br><strong>Scikit-learn</strong>
-      </td>
-      <td align="center" width="96">
-        <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="TensorFlow" width="48" height="48" />
-        <br><strong>TensorFlow</strong>
-      </td>
-      <td align="center" width="96">
-        <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="PyTorch" width="48" height="48" />
-        <br><strong>PyTorch</strong>
-      </td>
-      <td align="center" width="96">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="Pandas" width="48" height="48" />
-        <br><strong>Pandas</strong>
-      </td>
-      <td align="center" width="96">
-        <img src="https://www.vectorlogo.zone/logos/numpy/numpy-icon.svg" alt="NumPy" width="48" height="48" />
-        <br><strong>NumPy</strong>
-      </td>
-    </tr>
-  </table>
-</div>
-
-<br><br>
+If you would like these organized into categories (Research, Product, Teaching), I can reformat and add publication-style entries for each project.
 
 ---
 
-## 📈 Language Proficiency & Activity
+## Skills & Tools
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Parth-S-Mhatre&layout=donut&hide_border=true&theme=react&title_color=61dafb&text_color=c9d1d9&bg_color=0d1117&langs_count=8" width="40%" alt="Top Languages"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Parth-S-Mhatre&theme=github_dark" width="40%" alt="Productive Time"/>
-</div>
-
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Parth-S-Mhatre&theme=github_dark" width="40%" alt="Repos per Language"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Parth-S-Mhatre&theme=github_dark" width="40%" alt="Most Commit Language"/>
-</div>
-
-<br><br>
+- Machine Learning: scikit-learn, PyTorch, TensorFlow, ensemble methods, time-series forecasting
+- Data & Engineering: pandas, NumPy, feature engineering, data pipelines
+- Web & Backend: React, FastAPI, Firebase, RESTful APIs, deployment and CI
+- Dev Practices: testing, performance optimization, reproducible experiments
 
 ---
 
-## 🚀 ML Project Universe
+## How to use this portfolio for applications
 
-<div align="center">
-  <img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="300" alt="AI Brain"/>
-</div>
-
-<div align="center">
-  <a href="https://github.com/Parth-S-Mhatre?tab=repositories">
-    <img src="https://img.shields.io/badge/🖥️%20Computer%20Vision-30%25-FF6B6B?style=for-the-badge&labelColor=2d3748"/>
-  </a>
-  <a href="https://github.com/Parth-S-Mhatre?tab=repositories">
-    <img src="https://img.shields.io/badge/🔤%20NLP-25%25-4ECDC4?style=for-the-badge&labelColor=2d3748"/>
-  </a>
-  <a href="https://github.com/Parth-S-Mhatre?tab=repositories">
-    <img src="https://img.shields.io/badge/📊%20Data%20Analysis-20%25-45B7D1?style=for-the-badge&labelColor=2d3748"/>
-  </a>
-  <a href="https://github.com/Parth-S-Mhatre?tab=repositories">
-    <img src="https://img.shields.io/badge/🎯%20Predictive%20Modeling-15%25-96CEB4?style=for-the-badge&labelColor=2d3748"/>
-  </a>
-  <a href="https://github.com/Parth-S-Mhatre?tab=repositories">
-    <img src="https://img.shields.io/badge/🎮%20Reinforcement%20Learning-10%25-FECA57?style=for-the-badge&labelColor=2d3748"/>
-  </a>
-</div>
-
-<br><br>
+- For university applications, highlight the LoadIQ section (core project) and the AttendX contribution in your CV and Statement of Purpose. Include a brief bullet about: “Designed and deployed production forecasting system (LoadIQ) and contributed to AI agent resilience (AttendX) by implementing a 30s API delay/backoff to mitigate rate-limiting.”
+- If reviewers want to reproduce results, point them to the LoadIQ repo and its README for setup and dataset instructions.
 
 ---
 
-## 🏆 GitHub Achievements & Trophies
+## Contact & Links
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Parth-S-Mhatre&theme=radical&no-frame=true&no-bg=false&margin-w=4&row=2&column=4" alt="GitHub Trophies"/>
-</div>
-
-<br><br>
+- GitHub: https://github.com/Parth-S-Mhatre
+- LinkedIn: https://www.linkedin.com/in/your-profile (update with your profile link)
+- Email: your.email@example.com (update with your address)
 
 ---
 
-## 🤖 Robotics & AI Journey
-
-<div align="center">
-  <img src="https://media.giphy.com/media/3o7qDEq2bMbcbPRQ2c/giphy.gif" width="200" alt="Robot Animation"/>
-  
-  ### My AI Development Roadmap
-  
-  ```mermaid
-  graph TD
-    A[🎓 Computer Engineering] --> B[🐍 Python Mastery]
-    B --> C[📊 Data Science]
-    C --> D[🤖 Machine Learning]
-    D --> E[🧠 Deep Learning]
-    E --> F[🦾 Robotics Integration]
-    F --> G[🚀 AI Innovation]
-  ```
-</div>
-
-<br><br>
-
----
-
-## 📫 Let's Connect & Collaborate
-
-<div align="center">
-  <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> 
-  <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be happy to meet you more!</b> 😊</em>
-</div>
-
-<div align="center">
-  <a href="https://www.linkedin.com/in/your-profile" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0077B5" alt="LinkedIn"/>
-  </a>
-  <a href="https://www.instagram.com/parth_s_mhatre?igsh=MWRjZHNveTUyb3dkZA==" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=E4405F" alt="Instagram"/>
-  </a>
-  <a href="mailto:your.email@example.com" target="_blank">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=D14836" alt="Email"/>
-  </a>
-  <a href="https://twitter.com/your_handle" target="_blank">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&labelColor=1DA1F2" alt="Twitter"/>
-  </a>
-</div>
-
-<br><br>
-
----
-
-## ⚡ Fun Facts & Quick Stats
-
-<div align="center">
-  <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
-  <em><b>Random Developer Fact:</b> I debug with print statements and I'm not ashamed! 🐛</em>
-  <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
-</div>
-
-<div align="center">
-  <img src="https://readme-jokes.vercel.app/api?hideBorder&theme=react" alt="Jokes Card" />
-</div>
-
-<br><br>
-
----
-
-## 🌟 Quote of the Day
-
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Random Quote"/>
-</div>
-
-<br><br>
-
----
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&text=Thanks%20for%20visiting!&fontSize=16&fontColor=fff&animation=twinkling" width="100%"/>
-</div>
-
-<div align="center">
-  <img src="https://media.giphy.com/media/jpVnC65DmYeyRL4LHS/giphy.gif" width="20%">
-  
-  **⭐ Star my repositories if you find them interesting!**
-  
-  <br><br>
-  <em>💻 Happy Coding & Keep Building Amazing Things! 🚀</em>
-</div>
+Thanks for visiting — I'm happy to tailor this portfolio further for a specific program or reviewer. If you'd like, I can also generate a one-page PDF summary you can attach to applications.
