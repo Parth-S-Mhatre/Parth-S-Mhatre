@@ -274,7 +274,7 @@ Clean examples demonstrating Python best practices and algorithmic thinking.
 ### Education
 **Bachelor of Technology in Computer Engineering** (AI & Data Science Specialization)  
 Pillai College of Engineering, Mumbai | Aug 2023 - June 2027  
-**CGPA: 8.92/10.0** (6 Semesters Completed)
+
 
 ### Professional Certifications
 - ✅ IBM Deep Learning with PyTorch, Keras and TensorFlow (March 2026)
