@@ -199,7 +199,7 @@ Each project includes: EDA, preprocessing, model selection, cross-validation, ev
 - **API Basics Mastery:** REST principles, HTTP methods, JSON, async operations
 - **Journal Application:** Building production-grade backend with Spring Boot
 - Hands-on Java exercises demonstrating DSA and core CS concepts
-- [Java Fundamentals](https://github.com/Parth-S-Mhatre/Java-Fundamentals)
+- [Java DSA](https://github.com/Parth-S-Mhatre/DSA-Java)
 
 ---
 
