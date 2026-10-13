@@ -4,7 +4,7 @@
 
 ### Building Production-Ready AI Systems That Solve Real-World Problems
 
-**[🌐 Portfolio](https://parth-s-mhatre.netlify.app/) • [💼 LinkedIn](https://linkedin.com/in/parthmhatre41) • [📧 Email](mailto:parth.mhatre4141@gmail.com) • [🎓 Resume](./RESUME.pdf)**
+**[🌐 Portfolio](https://parthmhatrecode20.web.app/) • [💼 LinkedIn](https://linkedin.com/in/parthmhatre41) • [📧 Email](mailto:parth.mhatre4141@gmail.com) • [🎓 Resume](./RESUME.pdf)**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
